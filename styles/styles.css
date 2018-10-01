@@ -4,4 +4,28 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
+	background-color: #afcef8;
 }
+/*navigation styling af links/menu*/
+#nav a{
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+#nav a:hover{
+	background-color: #afcef8;
+}
+
+#nav{
+	display: flex;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	border-bottom: red dashed thick;
+}
+
