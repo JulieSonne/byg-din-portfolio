@@ -15,6 +15,7 @@ body{
     text-decoration: none;
 	width: 100%;
 	background-color: rgba(255, 255, 255, 0.25);
+	font-size: medium;
 }
 
 #nav a:hover{
@@ -27,8 +28,58 @@ body{
 	text-align: center;
 	margin: auto;
 	border-bottom: red dashed thick;
+	font-size: medium;
 }
 
+/*dropdown menu*/
+.dropdown {
+	border: none;
+	position: relative;
+	display: inline-block;
+/*placer teksten på linje*/
+	padding-top: 2.9%;
+	margin-bottom: 0;
+}
+
+/*Dropdown knappen*/
+.dropknap {
+	border: none;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.25);
+	width: 100%;
+	height:100%;
+	font-size: medium;
+	display: flex;
+}
+
+/*dropdown indholdet -links*/
+.dropdown-indhold {
+	border: none;
+	display: none;
+	position: absolute;
+	background-color: #afcef8;
+	/*dropdown menuens længde*/
+	min-width: 100px;
+}
+
+.dropdown-indhold a {
+	color: white;
+	padding: 10px 20px; 
+	text-decoration: none; 
+	display: block;
+	background-color:rgba(225,255,255,0.25);
+}
+
+.dropdown-indhold a:hover {
+	background-color: red;
+}
+
+.dropdown:hover .dropdown-indhold {
+	display: block;
+}
+.dropdown:hover a{
+	background-color: rgba(255, 255, 255, 0.25);
+}
 
 /*Portfolio - overskift*/
 table.center {
