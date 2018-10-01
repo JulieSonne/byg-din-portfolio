@@ -61,7 +61,7 @@ body{
 	position: absolute;
 	background-color: #afcef8;
 	/*dropdown menuens længde*/
-	min-width: 100px;
+	min-width: 25%;
 }
 
 .dropdown-indhold a {
@@ -76,6 +76,9 @@ body{
 	display: block;
 }
 
+.dropdown:hover {
+	background-color: #afcef8;
+}
 
 /*Portfolio - overskift*/
 table.center {
