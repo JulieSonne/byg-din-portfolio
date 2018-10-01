@@ -29,6 +29,7 @@ body{
 	border-bottom: red dashed thick;
 }
 
+
 /*Portfolio - overskift*/
 table.center {
 	margin-left: auto;
@@ -46,3 +47,5 @@ table.center {
 	box-shadow: 2.5px 2.5px 2.5px #666;
 	font-family: "helvetica", sans-serif;
 }
+
+
