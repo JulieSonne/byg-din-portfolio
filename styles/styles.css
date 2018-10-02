@@ -42,6 +42,43 @@ body{
 	font-size: medium;
 }
 
+/*overskrift portfolio*/
+#center {
+	margin-left: auto;
+	margin-top: 20%;
+	margin-top: auto;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+.portfolio{
+	border: 1px solid #666;
+	background-color: white;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	box-shadow: 2.5px 2.5px 2.5px #666;
+	font-family: "helvetica", sans-serif;
+}
+
+/*overskrift*/
+.placering-overskrift {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+.overskrift{
+	border: 1px solid #666;
+	background-color: white;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	box-shadow: 2.5px 2.5px 2.5px #666;
+	font-family: "helvetica", sans-serif;
+}
 
 /*den gule cirkel*/
 .gul {
@@ -64,25 +101,6 @@ body{
 	padding-top: none;
 }
 
-/*overskrift*/
-#placering-overskrift {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10%;
-	border-collapse: separate;
-	border-spacing: 10px;
-}
-
-.overskrift{
-	border: 1px solid #666;
-	background-color: white;
-	height: 35px;
-	width: 35px;
-	text-align: center;
-	box-shadow: 2.5px 2.5px 2.5px #666;
-	font-family: "helvetica", sans-serif;
-}
-
 /*kontakt/form styles*/
 form {
 	max-width: 20%;
@@ -102,8 +120,8 @@ input, textarea {
 	border: none;
 }
 
-/*brødtekst*/
-.brodtekst {
+/*brødtekst - omkring*/
+p {
 	margin-left: 12%;
 	margin-top: 2.5%;
 	font-family: "helvetica", sans-serif;
@@ -116,22 +134,4 @@ h2 {
 	font-family: "helvetica", sans-serif; 
 	width: 26%;
 	font-weight: normal;
-}
-
-
-
-.kasse1 {
-	border: 1px solid red;
-	padding: auto;
-	justify-content: space-around;
-}
-.kasse2 {
-	border: 1px solid blue;
-	padding: auto;
-	justify-content: space-around;
-}
-.kasse3 {
-	border: 1px solid green;
-	padding: auto;
-	justify-content: space-around;
 }
