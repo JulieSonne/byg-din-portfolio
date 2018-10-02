@@ -170,23 +170,35 @@ body{
 
 /*kontakt/form styles*/
 form {
-	max-width: 20%;
+	max-width: 23%;
 	align-content: center;
 	margin-top: 2.5%;
-	margin-left: 38.6%;
+	margin-left: 36%;
 	border: none;
-	padding: 20px;
+	padding: 30px;
 	background-color: rgba(255,255,255,0.25);
 	font-family: "helvetica", sans-serif; 
+
 }
-input, textarea {
-	width: 90%;
+
+.textkontakt{
+	width: 100%;
 	display: block;
-  	padding: 2.5%;
+  	padding: 10%;
  	font-family: "helvetica", sans-serif; 
 	font-size: small; 
 	border: none;
 }
+
+.sendknap {
+	width: 100%;
+	display: block;
+  	padding: 5%;
+ 	font-family: "helvetica", sans-serif; 
+	font-size: small; 
+	border: none;
+}
+
 
 /*brødtekst*/
 p {
