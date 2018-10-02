@@ -7,16 +7,6 @@ body{
 	background-color: #afcef8;
 }
 
-/*websidens container*/
-#container {
-			display: flex;
-			width: 75%;
-			flex-wrap: wrap;
-			justify-content: space-around;
-			margin-left: auto;
-			margin-right: auto;
-}
-
 /*navigation styling af links/menu*/
 #nav a{
 	display: inline-block;
@@ -45,10 +35,11 @@ body{
 /*overskrift portfolio*/
 #center {
 	margin-left: auto;
-	margin-top: 20%;
-	margin-top: auto;
+	margin-right: auto;
+	margin-top: 10%;
 	border-collapse: separate;
 	border-spacing: 10px;
+	text-align: center;
 }
 
 .portfolio{
@@ -120,7 +111,7 @@ input, textarea {
 	border: none;
 }
 
-/*brødtekst - omkring*/
+/*brødtekst*/
 p {
 	margin-left: 12%;
 	margin-top: 2.5%;
@@ -128,6 +119,7 @@ p {
 	width: 26%
 }
 
+/*h2 overskrift*/
 h2 {
 	margin-left: 12%;
 	margin-top: 5%;
