@@ -6,6 +6,16 @@ body{
 	font-family: "helvetica", sans-serif;
 	background-color: #afcef8;
 }
+
+#container {
+			display: flex;
+			width: 75%;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin-left: auto;
+			margin-right: auto;
+}
+
 /*navigation styling af links/menu*/
 #nav a{
 	display: inline-block;
@@ -57,20 +67,8 @@ table.center {
 	border-radius: 50%;
 	display: inline-block;
 	position: relative;
-	text-align: center;
-	margin-left: 49%;
-}
-
-.gul1 {
-	height: 25px;
-	width: 25px;
-	background-color: #FFE910;
-	border-radius: 50%;
-	display: inline-block;
-	position: relative;
-	text-align: center;
-	margin-left: 23.7%;
-	margin-top: 1%;
+	margin-left: 47%;
+	margin-top: 5%;
 }
 
 /*mit navn*/
@@ -78,11 +76,14 @@ table.center {
 	font-family: 'Bad Script', cursive;
 	text-align: center;
 	font-size: x-large;
+	margin-top: none;
+	padding-top: none;
 }
 
 /*overskrift*/
 #placering-overskrift {
-	margin-left: 11%;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 5%;
 	border-collapse: separate;
 	border-spacing: 10px;
@@ -131,4 +132,32 @@ h2 {
 	font-family: "helvetica", sans-serif; 
 	width: 26%;
 	font-weight: normal;
+}
+
+#main {
+	width: 76%;
+	height: 23.6%; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2.5%;
+	justify-content: space-around;
+}
+
+.kasse1 {
+	border: 1px solid red;
+	padding: auto;
+	justify-content: space-around;
+}
+.kasse2 {
+	border: 1px solid blue;
+	padding: auto;
+	justify-content: space-around;
+}
+.kasse3 {
+	border: 1px solid green;
+	padding: auto;
+	justify-content: space-around;
 }
