@@ -220,12 +220,3 @@ h2 {
 	font-weight: normal;
 }
 
-#main {
-	display: flex;
-}
-.billeder {
-	display: inline;
-	width: 10%;
-	height: 10%;
-	background-color: red;
-}
