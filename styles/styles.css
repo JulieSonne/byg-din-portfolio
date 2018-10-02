@@ -69,7 +69,7 @@ table.center {
 	display: inline-block;
 	position: relative;
 	text-align: center;
-	margin-left: 21.3%;
+	margin-left: 23.7%;
 	margin-top: 1%;
 }
 
@@ -84,6 +84,8 @@ table.center {
 #placering-overskrift {
 	margin-left: 11%;
 	margin-top: 5%;
+	border-collapse: separate;
+	border-spacing: 10px;
 }
 
 .overskrift{
@@ -98,11 +100,35 @@ table.center {
 
 /*kontakt/form styles*/
 form {
-	width: 20%;
-	margin-left: 11%;
+	max-width: 20%;
+	margin-left: 12%;
 	margin-top: 2.5%;
 	border: none;
 	padding: 20px;
 	background-color: rgba(255,255,255,0.25);
 	font-family: "helvetica", sans-serif; 
+}
+input, textarea {
+	width: 90%;
+	display: block;
+  	padding: 3%;
+ 	font-family: "helvetica", sans-serif; 
+	font-size: small; 
+	border: none;
+}
+
+/*brødtekst*/
+.brodtekst {
+	margin-left: 12%;
+	margin-top: 2.5%;
+	font-family: "helvetica", sans-serif;
+	width: 26%
+}
+
+h2 {
+	margin-left: 12%;
+	margin-top: 2.5%;
+	font-family: "helvetica", sans-serif; 
+	width: 26%;
+	font-weight: normal;
 }
