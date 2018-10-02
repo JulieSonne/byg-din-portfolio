@@ -177,12 +177,13 @@ form {
 	border: none;
 	padding: 30px;
 	background-color: rgba(255,255,255,0.25);
-	font-family: "helvetica", sans-serif; 
+	font-family: "helvetica", sans-serif;
+	margin-bottom: 12%;
 
 }
 
 .textkontakt{
-	width: 100%;
+	width: 250%;
 	display: block;
   	padding: 10%;
  	font-family: "helvetica", sans-serif; 
@@ -191,7 +192,8 @@ form {
 }
 
 .sendknap {
-	width: 100%;
+	width: 50%;
+	margin-left: 23.5%;
 	display: block;
   	padding: 5%;
  	font-family: "helvetica", sans-serif; 
