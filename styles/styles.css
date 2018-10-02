@@ -31,57 +31,6 @@ body{
 	font-size: medium;
 }
 
-/*dropdown menu*/
-.dropdown {
-	display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 3%;
-    text-decoration: none;
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0.25);
-	font-size: medium;
-}
-
-/*Dropdown knappen*/
-.dropknap {
-	border: none;
-	color: white;
-	background-color: rgba(255, 255, 255, 0.00);/*gemmensigtig*/
-	width: 100%;
-	height: 100%;
-	font-size: medium;
-	display: inline-block;
-}
-
-/*dropdown indholdet -links*/
-.dropdown-indhold {
-	border: none;
-	display: none;
-	position: absolute;
-	background-color: #afcef8;
-	/*dropdown menuens længde*/
-	min-width: 20%;
-}
-
-.dropdown-indhold a {
-	color: white; 
-	text-decoration: none; 
-	display: block;
-	background-color:rgba(225,255,255,0.25);
-	margin-left: 2%;
-}
-
-/*blokken der falder ned*/
-.dropdown:hover .dropdown-indhold {
-	display: block;
-}
-
-/*fade i menuen*/
-.dropdown:hover {
-	background-color: #afcef8;
-}
-
 /*Portfolio - overskift*/
 table.center {
 	margin-left: auto;
