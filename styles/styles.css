@@ -262,9 +262,8 @@ a.special:hover {
 /*plakat siden*/
 .plakat {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 5%;
 	padding:0;
-	align-items: right;
+	vertical-align: middle;
 }
