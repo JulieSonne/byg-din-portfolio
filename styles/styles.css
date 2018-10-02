@@ -61,6 +61,18 @@ table.center {
 	margin-left: 49%;
 }
 
+.gul1 {
+	height: 25px;
+	width: 25px;
+	background-color: #FFE910;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	margin-left: 21.3%;
+	margin-top: 1%;
+}
+
 /*mit navn*/
 #navn {
 	font-family: 'Bad Script', cursive;
@@ -82,4 +94,15 @@ table.center {
 	text-align: center;
 	box-shadow: 2.5px 2.5px 2.5px #666;
 	font-family: "helvetica", sans-serif;
+}
+
+/*kontakt/form styles*/
+form {
+	width: 20%;
+	margin-left: 11%;
+	margin-top: 2.5%;
+	border: none;
+	padding: 20px;
+	background-color: rgba(255,255,255,0.25);
+	font-family: "helvetica", sans-serif; 
 }
