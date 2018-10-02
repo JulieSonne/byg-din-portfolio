@@ -226,7 +226,33 @@ h2 {
 	margin-top: 5%;
 	padding-right: 15%;
 	padding-left: 15%;
+	position: relative;
 	
+}
+
+.image {
+  display: block;
+  height: auto;
+}
+.overlay {
+	alignment-baseline: bottom;
+	margin-top: 5%;
+}
+a.special {
+	color: rgba(0,0,0,0.00);
+}
+a.special:hover {
+  opacity: 1;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	transition: .5s ease;
+    opacity:0;
+    color: white;
+	text-decoration: none;
+}
+.gallery:hover .overlay {
+  opacity: 1;
 }
 
 /*billeder anden række*/
