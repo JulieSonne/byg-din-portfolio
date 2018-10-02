@@ -156,17 +156,6 @@ body{
 	font-family: "helvetica", sans-serif;
 }
 
-/*kontakt m. gul*/
-.gul3 {
-	height: 25px;
-	width: 25px;
-	background-color: #FFE910;
-	border-radius: 50%;
-	display: inline-block;
-	position: relative;
-	margin-left: 48.95%;
-	margin-top: 2.5%;
-}
 
 /*kontakt/form styles*/
 form {
@@ -201,8 +190,6 @@ form {
 	border: none;
 }
 
-
-/*brødtekst*/
 p {
 	margin-left: 12%;
 	margin-top: 2.5%;
@@ -211,7 +198,6 @@ p {
 	margin-bottom: 12%;
 }
 
-/*h2 overskrift*/
 h2 {
 	margin-left: 12%;
 	margin-top: 5%;
@@ -230,6 +216,24 @@ h2 {
 	
 }
 
+/*billeder anden række*/
+#gallery2 { display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+	padding-right: 15%;
+	padding-left: 15%;
+	
+}
+
+/*billeder anden række*/
+#gallery3 { display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+/*generelt hover*/
 .image {
   display: block;
   height: auto;
@@ -255,20 +259,12 @@ a.special:hover {
   opacity: 1;
 }
 
-/*billeder anden række*/
-#gallery2 { display: flex;
+/*plakat siden*/
+.plakat {
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 5%;
-	padding-right: 15%;
-	padding-left: 15%;
-	
-}
-
-/*billeder anden række*/
-#gallery3 { display: flex;
-	justify-content: space-between;
-	margin-top: 5%;
-	padding-right: 15%;
-	padding-left: 15%;
-	
+	padding:0;
+	align-items: right;
 }
