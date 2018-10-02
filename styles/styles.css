@@ -221,3 +221,14 @@ h2 {
 }
 
 /*billeder*/
+#gallery { display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+	padding-right: 15%;
+	padding-left: 15%;
+	
+}
+
+.billeder{
+	
+}
