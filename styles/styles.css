@@ -67,3 +67,19 @@ table.center {
 	text-align: center;
 	font-size: x-large;
 }
+
+/*overskrift*/
+#placering-overskrift {
+	margin-left: 11%;
+	margin-top: 5%;
+}
+
+.overskrift{
+	border: 1px solid #666;
+	background-color: white;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	box-shadow: 2.5px 2.5px 2.5px #666;
+	font-family: "helvetica", sans-serif;
+}
