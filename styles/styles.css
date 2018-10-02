@@ -220,7 +220,7 @@ h2 {
 	font-weight: normal;
 }
 
-/*billeder*/
+/*billeder første række*/
 #gallery { display: flex;
 	justify-content: space-between;
 	margin-top: 5%;
@@ -229,6 +229,20 @@ h2 {
 	
 }
 
-.billeder{
+/*billeder anden række*/
+#gallery2 { display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+	padding-right: 15%;
+	padding-left: 15%;
+	
+}
+
+/*billeder anden række*/
+#gallery3 { display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+	padding-right: 15%;
+	padding-left: 15%;
 	
 }
