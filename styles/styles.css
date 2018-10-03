@@ -283,9 +283,14 @@ a.special:hover {
 .tekst-t{
 	width: 30%;
 	margin-left: 12%; 
-	margin-top: 12%; 
+	margin-top: 12%;
+	line-height: 150%;
 }
 .plakat-billede {
 	margin-right: 12%;
 	margin-top: 5%; 
+}
+
+span {
+	font-weight: bold;
 }
