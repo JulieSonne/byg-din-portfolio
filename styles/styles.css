@@ -272,8 +272,6 @@ a.special:hover {
 }
 
 /*plakat siden*/
-
-	
 .plakat{
 	display: flex;
 	justify-content: space-between;
@@ -283,11 +281,11 @@ a.special:hover {
 }
 
 .tekst-t{
-	width: 23%;
+	width: 30%;
 	margin-left: 12%; 
 	margin-top: 12%; 
 }
 .plakat-billede {
 	margin-right: 12%;
-	margin-top: 5%;
+	margin-top: 5%; 
 }
