@@ -160,37 +160,49 @@ body{
 
 
 /*kontakt/form styles*/
-form {
-	max-width: 23%;
-	align-content: center;
-	margin-top: 2.5%;
-	margin-left: 36%;
-	border: none;
-	padding: 30px;
+.kontaktform{
+	width: 45%;
+	margin: auto; 
 	background-color: rgba(255,255,255,0.25);
-	font-family: "helvetica", sans-serif;
-	margin-bottom: 12%;
-
-}
-
-.textkontakt{
-	width: 250%;
-	display: block;
-  	padding: 10%;
- 	font-family: "helvetica", sans-serif; 
-	font-size: small; 
+	margin-top: 5%;
+	padding-top: 5%; 
+	padding-bottom: 5%; 
+	margin-bottom: 5%;
 	border: none;
 }
-
-.sendknap {
-	width: 50%;
-	margin-left: 23.5%;
-	display: block;
-  	padding: 5%;
- 	font-family: "helvetica", sans-serif; 
-	font-size: small; 
+input {
+	width: 90%; 
+	margin-right: auto;
+	margin-left: auto; 
+	padding-bottom: 2%; 
+	padding-top: 2%;
+	align-content: center;
 	border: none;
+	font-family: "helvetica", sans-serif; 
+	font-size: medium;
 }
+
+textarea {
+	width: 90%; 
+	margin-right: auto;
+	margin-left: auto; 
+	padding-bottom: 3%; 
+	padding-top: 3%;
+	font-family: "helvetica", sans-serif; 
+	font-size: medium;
+	border: none; 
+}
+
+#sendknap {
+	width: 20%;
+	margin: auto !important;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	font-family: "helvetica", sans-serif; 
+	font-size: medium;
+}
+
+
 
 p {
 	margin-left: 12%;

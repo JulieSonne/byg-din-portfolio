@@ -38,23 +38,22 @@
 	</div>
 	
 	<!--sidens main-->
-	<div id="main">
+	<div id="main" class="kontaktform">
 		<!--webform/kontakt-->
 	    <form action="mailto:jasonne@live.dk" method="post" enctype="text/plain">
       <p>
-        <input class="textkontakt" type="text" name="name" placeholder="Navn.." autofocus required>
+        <input type="text" name="name" placeholder="Navn..." autofocus required>
       </p>
       <p>
-        <input class="textkontakt" type="email" name="email" placeholder="E-mail.." required>
-      </p>
+        <input type="email" name="email" placeholder="E-mail..." required>
+			</p> 
       <p>
-        <textarea class="textkontakt" name="comment" placeholder="Besked..."></textarea>
+        <textarea name="comment" placeholder="Besked..."></textarea>
       </p>
-      <input class="sendknap" type="submit" value="Send">
+     <div id="sendknap"><input  type="submit" value="Send"></div>
     </form>
 	</div>
 	<div id="footer"></div>
-	
 	</div>
 </body>
 </html>
