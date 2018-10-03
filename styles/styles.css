@@ -131,10 +131,11 @@ h2 {
 	margin-top: 5%;
 	font-family: "helvetica", sans-serif; 
 	font-weight: normal;
+	line-height: 150%;
 }
 
 /*gallery - projekter*/
-#gallery { display: flex;
+.gallery { display: flex;
 	justify-content: space-between;
 	margin-top: 5%;
 	padding-right: 15%;
@@ -202,4 +203,10 @@ span {
 }
 .billedespecial {
 	margin-top: 14%; 
+	margin-right: 12%;
+}
+
+.billedeprototypemenu{
+	margin-top: 10%;
+	margin-right: 14%;
 }
