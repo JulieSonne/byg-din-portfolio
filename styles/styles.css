@@ -7,7 +7,7 @@ body{
 	background-color: #afcef8;
 }
 
-/*navigation styling af links/menu*/
+/*Styling af menu*/
 #nav a{
 	display: inline-block;
     color: white;
@@ -32,7 +32,9 @@ body{
 	font-size: medium;
 }
 
-/*overskrift portfolio*/
+/*Styling af overskrifter*/
+
+/*Overskrfiten "portfolio"*/
 #center {
 	margin-left: auto;
 	margin-right: auto;
@@ -52,32 +54,7 @@ body{
 	font-family: "helvetica", sans-serif;
 }
 
-/*mit navn*/
-#navn {
-	font-family: 'Bad Script', cursive;
-	text-align: center;
-	font-size: x-large;
-	margin-top: none;
-	padding-top: none;
-	margin-left: 36.7%;
-	width:100%;
-	margin: auto; 
-}
-
-/*gul m. portfolio*/
-.gul1 {
-	height: 25px;
-	width: 25px;
-	background-color: #FFE910;
-	border-radius: 50%;
-	display: inline-block;
-	position: relative;
-	margin-left: 48.95%;
-	margin-top: 2.5%;
-}
-
-
-/*overskrift for omkring*/
+/*Overskriften "omkring"*/
 .placering-overskrift {
 	margin-left: auto;
 	margin-right: auto;
@@ -96,19 +73,7 @@ body{
 	font-family: "helvetica", sans-serif;
 }
 
-/*overskrift m. gul*/
-.gul2 {
-	height: 25px;
-	width: 25px;
-	background-color: #FFE910;
-	border-radius: 50%;
-	display: inline-block;
-	position: relative;
-	margin-left: 48.95%;
-	margin-top: 2.5%;
-}
-
-/*overskrift for kontakt*/
+/*Overskrift "kontakt"*/
 .placering-kontakt {
 	margin-left: auto;
 	margin-right: auto;
@@ -127,19 +92,7 @@ body{
 	font-family: "helvetica", sans-serif;
 }
 
-/*kontakt m. gul*/
-.gul3 {
-	height: 25px;
-	width: 25px;
-	background-color: #FFE910;
-	border-radius: 50%;
-	display: inline-block;
-	position: relative;
-	margin-left: 48.95%;
-	margin-top: 2.5%;
-}
-
-/*overskrift for projekter*/
+/*Overskrift for "projekter"*/
 .placering-projekter {
 	margin-left: auto;
 	margin-right: auto;
@@ -157,6 +110,33 @@ body{
 	box-shadow: 2.5px 2.5px 2.5px #666;
 	font-family: "helvetica", sans-serif;
 }
+
+/*Styling af mit navn, under overskriften portfolio*/
+#navn {
+	font-family: 'Bad Script', cursive;
+	text-align: center;
+	font-size: x-large;
+	margin-top: none;
+	padding-top: none;
+	width:100%;
+	margin: auto; 
+}
+
+/*gul m. portfolio*/
+.gul1 {
+	height: 25px;
+	width: 25px;
+	background-color: #FFE910;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	margin-left: 48.95%;
+	margin-top: 2.5%;
+}
+
+
+
+
 
 
 /*kontakt/form styles*/
