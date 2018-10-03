@@ -117,7 +117,7 @@ textarea {
 	font-size: medium;
 }
 
-
+/*styling af p og h2*/
 
 p {
 	margin-left: 12%;
@@ -133,7 +133,7 @@ h2 {
 	font-weight: normal;
 }
 
-/*billeder første række*/
+/*gallery - projekter*/
 #gallery { display: flex;
 	justify-content: space-between;
 	margin-top: 5%;
@@ -168,7 +168,7 @@ a.special:hover {
   opacity: 1;
 }
 
-/*plakat siden*/
+/*billeder og tekst*/
 .billedeogtekst{
 	display: flex;
 	justify-content: space-between;
@@ -180,7 +180,7 @@ a.special:hover {
 .tekst{
 	width: 30%;
 	margin-left: 12%; 
-	margin-top: 12%;
+	margin-top: 5%;
 	line-height: 150%;
 }
 .billede {
@@ -190,4 +190,16 @@ a.special:hover {
 
 span {
 	font-weight: bold;
+}
+
+/*billeder og tekst(speicial)*/
+.tekstspecial{
+	width: 40%;
+	margin-left: 12%; 
+	margin-top: 12%;
+	line-height: 150%;
+	margin-right: 12%;
+}
+.billedespecial {
+	margin-top: 14%; 
 }
