@@ -60,6 +60,8 @@ body{
 	margin-top: none;
 	padding-top: none;
 	margin-left: 36.7%;
+	width:100%;
+	margin: auto; 
 }
 
 /*gul m. portfolio*/
@@ -194,7 +196,6 @@ p {
 	margin-left: 12%;
 	margin-top: 2.5%;
 	font-family: "helvetica", sans-serif;
-	width: 26%;
 	margin-bottom: 12%;
 }
 
@@ -202,7 +203,6 @@ h2 {
 	margin-left: 12%;
 	margin-top: 5%;
 	font-family: "helvetica", sans-serif; 
-	width: 26%;
 	font-weight: normal;
 }
 
@@ -260,16 +260,22 @@ a.special:hover {
 }
 
 /*plakat siden*/
-.plakat {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 5%;
-	padding:0;
-	vertical-align: middle;
-}
-
-h1 {
-	font-family: "helvetica";
-}
 
 	
+.plakat{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 12%;
+}
+
+.tekst-t{
+	width: 23%;
+	margin-left: 12%; 
+	margin-top: 12%; 
+}
+.plakat-billede {
+	margin-right: 12%;
+	margin-top: 5%;
+}
